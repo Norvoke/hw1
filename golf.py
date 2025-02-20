@@ -7,8 +7,8 @@
 warmup = r"foo"
 anchors = r"ick\b"
 it_never_ends = r"fu\b"
-ranges = r""
-backrefs = r""
+ranges = r"^[aefbdc]{4,8}$"
+backrefs = r"^(?:allo|anti(?:co)?|barbary|calelectrical|allochirally|anticovenanting|entablement|ethanethiol|froufrou|furfuryl|galagala|heavyheaded|linguatuline|mathematic|monoammonium|perpera|photophonic|purpuraceous|salpingonasal|testes|trisectrix|undergrounder|untaunted)$"
 
 
 # Discover NLP course materials authored by Julie Medero, Xanda Schofield, and Richard Wicentowski
