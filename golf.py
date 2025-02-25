@@ -7,8 +7,8 @@
 warmup = r"foo"
 anchors = r"ick\b"
 it_never_ends = r"fu\b"
-ranges = r"^[aefbdc]{4,8}$"
-backrefs = r"([A-Za-z]{3}).*\1"
+ranges = r"^[a-f]{4,8}$"
+backrefs = r"(\w{3}).*\1"
 
 
 # Discover NLP course materials authored by Julie Medero, Xanda Schofield, and Richard Wicentowski
